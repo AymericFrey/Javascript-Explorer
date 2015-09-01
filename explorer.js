@@ -103,8 +103,6 @@ App.Explorer = (function(){
 		element.on("dragend", App.Explorer.DragDrop.dragEnd);
 	};
 	
-	
-	
 	self.init = function(p_content, p_path){
 		content = p_content;
 		projectPath = p_path;
